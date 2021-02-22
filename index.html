@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Fruchtschnitt Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div id="home">
+    <h1>Fruitslicer Quiz</h1>
+  </div>
+  <div class="container">
+    <div class="block" id="anleitung">
+      <h1>Wie wird gespielt</h1>
+    </div>
+    <div class="block" id="wiewirdgespielt">
+      <p>Auf der linken Seite ist der Querschnitt einer Frucht zu sehen und auf der rechten Seite stehen vier mögliche Antworten. Du musst die richtige wählen.</p>
+    </div>
+    <div class="block" id="start">
+      <h1>Quiz starten</h1>
+    </div>
+    <div id="quiz">
+      <div id="question"></div>
+      <div class="block" id="qImg"></div>
+      <div class="block-2" id="choices">
+        <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+        <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+        <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+        <div class="choice" id="D" onclick="checkAnswer('D')">D</div>
+      </div>
+    </div>
+    <div class="block" id="score"></div>
+    <div class="block" id="ergebnis">
+      <h1>Ergebnis</h1>
+    </div>
+    <div class="block" id="nochmal">
+      <h1>Nochmal</h1>
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
