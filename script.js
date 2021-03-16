@@ -17,7 +17,7 @@ const nochmal = document.getElementById('nochmal');
 // create questions
 let questions = [{
   question: "Wleche Frucht wird gezeigtA?",
-  imgSrc: "img/avocado.jpg",
+  imgSrc: "img/avocado-mosaik.png",
   choiceA: "Avocado",
   choiceB: "Apfel",
   choiceC: "Limette",
@@ -25,7 +25,7 @@ let questions = [{
   correct: "A"
 }, {
   question: "Wleche Frucht wird gezeigtB?",
-  imgSrc: "img/Blaubeere.jpg",
+  imgSrc: "img/Blaubeere-mosaik.png",
   choiceA: "Pflaume",
   choiceB: "Blaubeere",
   choiceC: "Kirsche",
@@ -33,7 +33,7 @@ let questions = [{
   correct: "B"
 }, {
   question: "Wleche Frucht wird gezeigtZ?",
-  imgSrc: "img/Zitrone.jpg",
+  imgSrc: "img/Zitrone-mosaik.png",
   choiceA: "Orange",
   choiceB: "Maracuja",
   choiceC: "Zitrone",
@@ -41,7 +41,7 @@ let questions = [{
   correct: "C"
 }, {
   question: "Wleche Frucht wird gezeigtD?",
-  imgSrc: "img/Dattel.jpg",
+  imgSrc: "img/Dattel-mosaik.png",
   choiceA: "Kaki",
   choiceB: "Physalis",
   choiceC: "Papaja",
